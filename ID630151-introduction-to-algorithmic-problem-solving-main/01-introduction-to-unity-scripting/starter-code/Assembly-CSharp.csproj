@@ -36,11 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\RW\Scripts\Sheep.cs" />
      <Compile Include="Assets\RW\Scripts\HayMachine.cs" />
      <Compile Include="Assets\RW\Scripts\Move.cs" />
-     <Compile Include="Assets\RW\Scripts\Rotate.cs" />
      <Compile Include="Assets\RW\Scripts\DestroyOnTrigger.cs" />
-     <Compile Include="Assets\RW\Scripts\Sheep.cs" />
+     <Compile Include="Assets\RW\Scripts\Rotate.cs" />
      <Compile Include="Assets\RW\Scripts\SheepSpawner.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -610,25 +610,25 @@
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/HayBale/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/HayBale/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/HayBale/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/HayBale/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/HayBale/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/HayBale/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/samanthalindsey/Desktop/polytech/2022/BIT/HayBale/ID630151-introduction-to-algorithmic-problem-solving-main/01-introduction-to-unity-scripting/starter-code/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
