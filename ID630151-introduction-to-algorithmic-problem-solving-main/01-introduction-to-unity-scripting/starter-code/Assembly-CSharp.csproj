@@ -42,6 +42,8 @@
      <Compile Include="Assets\RW\Scripts\DestroyOnTrigger.cs" />
      <Compile Include="Assets\RW\Scripts\Rotate.cs" />
      <Compile Include="Assets\RW\Scripts\SheepSpawner.cs" />
+     <Compile Include="Assets\RW\Scripts\TweenScale.cs" />
+     <Compile Include="Assets\RW\Scripts\DestroyTimer.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
