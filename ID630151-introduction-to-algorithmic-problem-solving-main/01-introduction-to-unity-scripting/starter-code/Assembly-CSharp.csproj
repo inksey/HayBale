@@ -37,13 +37,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\RW\Scripts\Sheep.cs" />
+     <Compile Include="Assets\RW\Scripts\DestroyTimer.cs" />
      <Compile Include="Assets\RW\Scripts\HayMachine.cs" />
      <Compile Include="Assets\RW\Scripts\Move.cs" />
      <Compile Include="Assets\RW\Scripts\DestroyOnTrigger.cs" />
+     <Compile Include="Assets\RW\Scripts\TweenScale.cs" />
      <Compile Include="Assets\RW\Scripts\Rotate.cs" />
      <Compile Include="Assets\RW\Scripts\SheepSpawner.cs" />
-     <Compile Include="Assets\RW\Scripts\TweenScale.cs" />
-     <Compile Include="Assets\RW\Scripts\DestroyTimer.cs" />
+     <Compile Include="Assets\RW\Scripts\Managers\SoundManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
