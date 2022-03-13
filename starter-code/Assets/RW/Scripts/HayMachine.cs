@@ -21,7 +21,7 @@ public class HayMachine : MonoBehaviour
         LoadModel();
     }
 
-    private void LoadModel()
+     private void LoadModel()
     {
         Destroy(modelParent.GetChild(0).gameObject); 
 
@@ -38,7 +38,7 @@ public class HayMachine : MonoBehaviour
             case HayMachineColor.Red:
                 Instantiate(redModelPrefab, modelParent);
             break;
-        }
+        } 
     }   
 
 

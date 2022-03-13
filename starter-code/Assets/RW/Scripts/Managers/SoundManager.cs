@@ -24,7 +24,7 @@ public class SoundManager : MonoBehaviour
         AudioSource.PlayClipAtPoint(clip, cameraPosition);
     }
 
-        public void PlayShootClip()
+    public void PlayShootClip()
     {
         PlaySound(shootClip);
     }

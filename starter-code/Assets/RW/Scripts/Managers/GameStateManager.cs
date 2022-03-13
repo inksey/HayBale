@@ -38,6 +38,7 @@ public class GameStateManager : MonoBehaviour
     public void DroppedSheep()
     {
         sheepDropped++; 
+        UIManager.Instance.UpdateSheepDropped();
 
         if (sheepDropped == sheepDroppedBeforeGameOver) 
         {
