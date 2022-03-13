@@ -53,6 +53,7 @@
      <Compile Include="Assets\RW\Scripts\Shared\HayMachineColor.cs" />
      <Compile Include="Assets\RW\Scripts\Shared\GameSettings.cs" />
      <Compile Include="Assets\RW\Scripts\Shared\HayMachineSwitcher.cs" />
+     <Compile Include="Assets\RW\Scripts\Movement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
