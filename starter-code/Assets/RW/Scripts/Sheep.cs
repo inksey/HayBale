@@ -14,6 +14,7 @@ public class Sheep : MonoBehaviour
     private SheepSpawner sheepSpawner;
     public float heartOffset; 
     public GameObject heartPrefab; 
+    public float SheepSpeedIncreaseModifier = 4f;
     
     void Start()
     {
@@ -24,6 +25,7 @@ public class Sheep : MonoBehaviour
     
     void Update()
     {
+     //   runSpeed += SheepSpeedIncreaseModifier * Time.deltaTime;
         transform.Translate(Vector3.forward * runSpeed * Time.deltaTime);
     }
 
@@ -76,5 +78,10 @@ public class Sheep : MonoBehaviour
     {
         sheepSpawner = spawner;
 
+    }
+
+    public void SetRunSpeed (float speed)
+    {
+        runSpeed = speed;
     }
 } 

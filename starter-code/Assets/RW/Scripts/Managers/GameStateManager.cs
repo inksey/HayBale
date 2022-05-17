@@ -26,6 +26,7 @@ public class GameStateManager : MonoBehaviour
     {
         sheepSaved++;
         UIManager.Instance.UpdateSheepSaved();
+        sheepSpawner.UpdateSheepSaved(sheepSaved);
     }
 
     private void GameOver()

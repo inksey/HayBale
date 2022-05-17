@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour
     public void UpdateSheepSaved() 
     {
         sheepSavedText.text = GameStateManager.Instance.sheepSaved.ToString();
+        //use this code for highscore (highScoreText.text = GameStateManager.Instance.sheepSaved.ToString();)
     }
 
     public void UpdateSheepDropped() 
